@@ -57,18 +57,25 @@ try:
         print("\nStarting Drone!\n")
 
         sendmsg('command', 0)
+
         sendmsg('takeoff')
 
+
+        sendmsg('forward 100')
+        sendmsg('cw 90')
         sendmsg('forward 100')
 
-        sendmsg('land')
+        sendmsg("land")
 
         print('\nGreat Flight!!!')
 
     else:
         print('\nMake sure you check WIFI, surroundings, co-pilot is ready, re-run program\n')
+
 except KeyboardInterrupt:
     sendmsg('emergency')
 
 breakr = True
 sock.close()
+
+
