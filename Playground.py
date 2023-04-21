@@ -1,3 +1,7 @@
+# Date: 4-21-23
+# Programmer: Matthew Clifford
+# Program: Playground
+
 # Started from Tello Template
 # This Python app is in the Public domain
 # Some parts from Tello3.py
